@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Who</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">	
+	
+</head>
+<body>
+	<div class="container">
+		<div class="game-container">
+		  <div class="cards">
+			<div class="row">
+					<div class="box animated flipInY cheeks glasses collar nose background-blue eyes-black animal hair-brown">
+						<img src="img/image-1.png" alt="reindeer">
+					</div>
+					<div class="box animated flipInY cheeks hat scarf nose background-jade buttons">
+						<img src="img/image-2.png" alt="santa">
+					</div>
+					<div class="box animated flipInY glasses collar female background-yellow eyes-black">
+						<img src="img/image-3.png" alt="mrs-claus">
+					</div>
+					<div class="box animated flipInY cheeks hat background-blue buttons object">
+						<img src="img/image-4.png" alt="star">
+					</div>
+					<div class="box animated flipInY cheeks nose background-red">
+						<img src="img/image-5.png" alt="pudding">
+					</div>
+
+					<div class="box animated flipInY cheeks buttons background-jade eyes-black object">
+						<img src="img/image-6.png" alt="gingerbread">
+					</div>
+					<div class="box animated flipInY cheeks glasses scarf background-yellow eyes-black wings hair-brown">
+						<img src="img/image-7.png" alt="elf">
+					</div>
+					<div class="box animated flipInY hat collar nose background-blue eyes-black animal">
+						<img src="img/image-8.png" alt="polar-bear">
+					</div>
+			</div>
+			<div class="row">
+					<div class="box animated flipInY glasses scarf background-jade animal wings">
+						<img src="img/image-9.png" alt="turkey">
+					</div>
+
+					<div class="box animated flipInY hat collar nose background-blue buttons eyes-black">
+						<img src="img/image-10.png" alt="elf">
+					</div>
+
+					<div class="box animated flipInY cheeks hat glasses background-red object">
+						<img src="img/image-11.png" alt="pudding">
+					</div>
+
+					<div class="box animated flipInY cheeks hat scarf nose background-jade eyes-blackanimal hair-brown">
+						<img src="img/image-12.png" alt="reindeer">
+					</div>
+
+					<div class="box animated flipInY cheeks hat collar female background-yellow eyes-black hair-brown">
+						<img src="img/image-13.png" alt="female-elf">
+					</div>
+					<div class="box animated flipInY hat collar nose background-red eyes-black object">
+						<img src="img/image-14.png" alt="snowman">
+					</div>
+
+					<div class="box animated flipInY cheeks hat collar nose background-blue object">
+						<img src="img/image-15.png" alt="female-gingerbread">
+					</div>
+
+					<div class="box animated flipInY cheeks hat collar nose female background-jade eyes-black">
+						<img src="img/image-16.png" alt="mrs-claus">
+					</div>
+			  </div>
+			<div class="row">
+				  <div class="box animated flipInY cheeks glasses scarf background-red buttons object">
+						<img src="img/image-17.png" alt="snowman">
+				  </div>
+
+				  <div class="box animated flipInY scarf nose female background-yellow hair-brown">
+					<img src="img/image-18.png" alt="female-elf">
+				  </div>
+
+					<div class="box animated flipInY female background-jade buttons object">
+					  <img src="img/image-19.png" alt="female-gingerbread">
+					</div>
+
+					<div class="box animated flipInY cheeks glasses background-blue buttons animal">
+					  <img src="img/image-20.png" alt="polar-bear">
+					</div>
+
+					<div class="box animated flipInY cheeks hat nose background-jade buttons eyes-black animal wings">
+					  <img src="img/image-21.png" alt="star">
+					</div>
+
+				  <div class="box animated flipInY glasses collar nose background-blue eyes-black object">
+						<img src="img/image-22.png" alt="turkey">
+				  </div>
+				  <div class="box animated flipInY hat glasses scarf background-yellow buttons eyes-black">
+						<img src="img/image-23.png" alt="santa">
+				  </div>
+
+					<div class="box animated flipInY cheeks hat collar background-red animal hair-brown">
+					  <img src="img/image-24.png" alt="reindeer">
+					</div>
+			</div>
+		  </div>
+		  <div class="main_container">
+    			<div class="flip_card">
+        			<div class="front face" id="theFront">
+            			<img src="img/card.png" class="front-card card" alt="front of card">
+        			</div>
+        			<div class="main-card box2">
+        				<img src="" class="back-card" alt="generated card">
+        			</div>
+   				</div>
+			</div>
+			
+		</div>
+		<section class="questions">
+	    		<div class="nav-button left-button"> <img src="./img/left-button.png" alt="left-button"> </div>
+	    		<div class="banner">
+	    				<img src="./img/banner.png" alt="banner">
+	    				<div id="banner-options" style="position:absolute; left:100px; top:5px"></div>
+	    		</div>
+	    		<div class="nav-button right-button"> <img src="./img/right-button.png" alt="right-button"> </div>
+			    <div class="no-button" style="cursor:hand" onclick="singleGuess('no')"> <img src="./img/no-button.png" alt="no-button"> </div>
+			    <div class="yes-button" style="cursor:hand" onclick="singleGuess('yes')"> <img src="./img/yes-button.png" alt="yes-button"> </div>
+	    		
+	      	</section>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
+
+
+

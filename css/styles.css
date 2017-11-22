@@ -13,17 +13,6 @@
 	overflow: hidden;
 }
 
-p {
-	color: #fff;
-	font-family: 'Bubblegum Sans', cursive;
-	font-size: 40px;
-	text-align: center;
-	margin: 0;
-	line-height: 50px;
-/*x*/
-
-}
-
 /*******************
   ROWS
 *******************/
@@ -56,7 +45,7 @@ p {
 	border: 3px solid #FFFFFF;
 	margin-bottom: 2%;
 }
-
+	
 .row:nth-child(3) 
 .box {
     margin-bottom: 0;
@@ -98,16 +87,14 @@ p {
 }
 
 .main_container.active .flip_card {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 .front-card{
     backface-visibility: hidden;
     border-radius: 15px;
     border: 3px solid #FFFFFF;
-    right:0;
-    top: 150px; 
-	margin: 0 10px;
-	width: 250px;
+	margin: 0 5px;
+	width: 175px;
 }
 
 .face.back {
@@ -123,14 +110,15 @@ p {
 }
 
 .main-card {
-/*    width:17%;*/
     opacity: 0;
     transition: opacity 0.5s;
     transition-delay: 1s;
 }
 
 .back-card{
-	width:150px;
+	margin: 0 5px;
+	width: 175px;
+	vertical-align: bottom;
 }
 
 /*******************
@@ -140,7 +128,7 @@ p {
 .questions {
 	position: relative;
 	width: 92%;
-    margin: 55px auto;
+    margin: 50px;
     white-space: nowrap;
 }
 
@@ -150,7 +138,12 @@ p {
 
 .questions p{
 	display: inline-block;
-	width: 300px;
+	color: #fff;
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 40px;
+	margin: 0;
+	line-height: 50px;
+    padding: 0 150px;
 }
 
 .questions img {

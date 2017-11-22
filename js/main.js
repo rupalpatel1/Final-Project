@@ -22,7 +22,7 @@ cards[11]["background"] = "red";
 cards[12]["background"] = "jade";
 cards[13]["background"] = "yellow";
 cards[14]["background"] = "red";
-cards[15]["background"] = "background-blue";
+cards[15]["background"] = "blue";
 cards[16]["background"] = "jade";
 
 cards[17]["background"] = "red";
